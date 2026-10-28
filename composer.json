@@ -1,0 +1,55 @@
+{
+    "name": "phpwarden/laravel",
+    "description": "Artisan command (php artisan phpwarden:scan) that scans your composer.lock for known-vulnerable packages, ranked by real-world exploitation (CISA KEV + EPSS).",
+    "type": "library",
+    "license": "Apache-2.0",
+    "keywords": ["laravel", "artisan", "security", "vulnerability", "scanner", "cve", "composer", "sca", "kev", "epss", "phpwarden"],
+    "homepage": "https://phpwarden.io",
+    "support": {
+        "issues": "https://github.com/primeagent001-bot/phpwarden-laravel/issues",
+        "source": "https://github.com/primeagent001-bot/phpwarden-laravel",
+        "docs": "https://phpwarden.io/docs.html#ci"
+    },
+    "authors": [
+        {
+            "name": "phpwarden",
+            "homepage": "https://phpwarden.io"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "illuminate/console": "^10.0|^11.0|^12.0",
+        "illuminate/support": "^10.0|^11.0|^12.0",
+        "symfony/process": "^6.0|^7.0",
+        "phpwarden/phpwarden": "^1.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^8.0|^9.0|^10.0",
+        "phpunit/phpunit": "^10.0|^11.0|^12.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Phpwarden\\Laravel\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Phpwarden\\Laravel\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Phpwarden\\Laravel\\PhpwardenServiceProvider"
+            ]
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
