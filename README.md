@@ -10,7 +10,7 @@ CLI (Apache-2.0, zero-dependency Python). It depends on
 whose `vendor/bin/phpwarden` shim finds a `phpwarden` already on `PATH` or
 installs the CLI into a private virtualenv on first run (Python 3.8+ required).
 
-Supports Laravel 10, 11 and 12 on PHP 8.1+.
+Supports Laravel 10, 11, 12 and 13 on PHP 8.1+ (Laravel 13 itself needs PHP 8.3).
 
 ## Install
 
