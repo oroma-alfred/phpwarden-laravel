@@ -4,7 +4,7 @@
 known-vulnerable packages, ranked by real-world exploitation (CISA KEV + EPSS),
 and fail the build on what matters.
 
-Thin Artisan wrapper around the [phpwarden](https://github.com/primeagent001-bot/phpwarden)
+Thin Artisan wrapper around the [phpwarden](https://github.com/oroma-alfred/phpwarden)
 CLI (Apache-2.0, zero-dependency Python). It depends on
 [`phpwarden/phpwarden`](https://packagist.org/packages/phpwarden/phpwarden),
 whose `vendor/bin/phpwarden` shim finds a `phpwarden` already on `PATH` or
@@ -97,9 +97,9 @@ Any runner works: `php artisan phpwarden:scan` after `composer install`. The
 first run installs the Python CLI (needs `python3`), so cache
 `vendor/phpwarden/.venv` or `pip install "phpwarden>=2,<3"` in the image.
 GitHub users can use the
-[phpwarden action](https://github.com/primeagent001-bot/phpwarden-action)
+[phpwarden action](https://github.com/oroma-alfred/phpwarden-action)
 instead; GitLab CI and Bitbucket templates live in the
-[main repo](https://github.com/primeagent001-bot/phpwarden/tree/main/integrations).
+[main repo](https://github.com/oroma-alfred/phpwarden/tree/main/integrations).
 
 ## Testing this package
 

@@ -6,8 +6,8 @@
     "keywords": ["laravel", "artisan", "security", "vulnerability", "scanner", "cve", "composer", "sca", "kev", "epss", "phpwarden"],
     "homepage": "https://phpwarden.io",
     "support": {
-        "issues": "https://github.com/primeagent001-bot/phpwarden-laravel/issues",
-        "source": "https://github.com/primeagent001-bot/phpwarden-laravel",
+        "issues": "https://github.com/oroma-alfred/phpwarden-laravel/issues",
+        "source": "https://github.com/oroma-alfred/phpwarden-laravel",
         "docs": "https://phpwarden.io/docs.html#ci"
     },
     "authors": [
