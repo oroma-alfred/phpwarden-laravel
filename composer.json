@@ -1,6 +1,6 @@
 {
     "name": "phpwarden/laravel",
-    "description": "Artisan command (php artisan phpwarden:scan) that scans your composer.lock for known-vulnerable packages, ranked by real-world exploitation (CISA KEV + EPSS).",
+    "description": "php artisan phpwarden:scan — composer.lock vulnerabilities ranked by real-world exploitation (CISA KEV, then EPSS), with --fail-on=exploited for CI.",
     "type": "library",
     "license": "Apache-2.0",
     "keywords": ["laravel", "artisan", "security", "vulnerability", "scanner", "cve", "composer", "sca", "kev", "epss", "phpwarden"],
