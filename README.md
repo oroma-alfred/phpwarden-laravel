@@ -113,6 +113,7 @@ The tests run the real CLI against a deliberately outdated lockfile
 
 ## License
 
-Apache-2.0. phpwarden is open-core: the CLI and this package are free; the
-exploitation-ranked feed and the dashboard at [phpwarden.io](https://phpwarden.io)
-are the paid part.
+Apache-2.0. phpwarden is open-core: the CLI, this package, the bundled feed with
+free weekly updates and a one-project dashboard are free; the maintained feed
+(rebuilt twice a day), more projects and alerts at
+[phpwarden.io](https://phpwarden.io) are the paid part.
